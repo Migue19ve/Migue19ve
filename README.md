@@ -100,8 +100,21 @@ LaTeX + Python pipelines for generating polished engineering reports (thermodyna
 
 ### 📈 Stats
 
-![Migue19ve's GitHub stats](https://github-readme-stats.vercel.app/api?username=Migue19ve&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800)
+<p align="center">
+  <a href="https://github.com/Migue19ve">
+    <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Migue19ve&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
+  </a>
+  <a href="https://github.com/Migue19ve">
+    <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Migue19ve&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  </a>
+</p>
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Migue19ve&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Migue19ve&theme=tokyonight&hide_border=true" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Migue19ve&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10" />
+</p>
 
 > Most of my work lives in private repos, so the public stats only show a slice of it. Happy to walk through any of it on request.
