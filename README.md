@@ -18,59 +18,64 @@ I build software that turns messy, manual work into clean, reliable systems. Mos
 
 I'm equally comfortable wiring up backends, shipping a frontend, designing the data model, and dropping into cloud infra when needed. I lean heavily on AI in my workflow and treat it as another tool in the box — not a buzzword.
 
-- 🎓 Mechanical & systems engineering student
 - 🌎 Based between Venezuela and Miami, FL
 - 🤖 Comfortable working with LLMs end-to-end: prompt design, caching, tool use, agentic workflows
 - 🧩 I enjoy the boring parts: edge cases, observability, secrets hygiene, "what happens if the API goes down"
 
 ---
 
-### 🛠️ What I can do
+### 🧰 Tech stack I actually use
 
-**Automation & integrations**
-Connect SaaS tools that don't normally talk to each other — calendars, CRMs, spreadsheets, payment processors, messaging platforms — into pipelines that run on a schedule or react to events.
+**Languages**
+Python (3.10+), TypeScript / JavaScript (ES2022), SQL (PostgreSQL), HTML/CSS, VBA, LaTeX, Bash.
 
-**Internal tools & web apps**
-Build full-stack apps from scratch: auth, real-time updates, admin panels, role-based dashboards. Ship them to production with proper environments, previews, and CI.
+**Web & frontend**
+Next.js (App Router), React 18, Tailwind CSS, server components & server actions, Jest + Testing Library, Vercel (preview environments per branch).
 
-**Document & report generation**
-Programmatically generate PDFs, Word docs, Excel reports, and emails from structured data or templated content. Useful when humans shouldn't be copy-pasting at 2am.
+**Backend & APIs**
+FastAPI, Node.js, REST + webhook design, Azure Functions (HTTP, timer & queue triggers), Microsoft Bot Framework for Teams (adaptive cards, message extensions, OAuth flow).
 
-**AI-powered features**
-Add LLM capability to existing products — Q&A over documents, structured extraction, conversational interfaces, agent workflows that call real tools.
+**Databases & data**
+PostgreSQL, Supabase (auth, row-level security, realtime channels, storage), Airtable API, pandas, openpyxl.
 
-**Cloud & infra**
-Deploy and operate serverless functions, manage secrets, set up auth flows, work with managed databases, and write the infra-as-code that backs it.
+**Cloud, infra & DevOps**
+Microsoft Azure (Functions, Storage, Key Vault, App Insights), Bicep IaC, Docker, GitHub Actions CI/CD, Vercel, secrets management with `.env` + Key Vault, environment-aware config.
 
-**Office/ERP automation**
-Build macros, scripts, and reporting layers on top of legacy ERP and Excel workflows that companies actually depend on day-to-day.
+**Integrations I've shipped against**
+Microsoft Graph (mail, calendar, Teams), Microsoft Teams Bot Framework, Stripe (Products, Prices, Invoices, Webhooks), Calendly v2 API, Airtable, Google Apps Script + Gmail, Power Automate flows, OpenAI / Anthropic / GitHub Models APIs.
+
+**AI / LLM tooling**
+Anthropic Claude (Opus/Sonnet/Haiku) and OpenAI SDKs, prompt caching, structured tool use, agentic loops, RAG with chunking + embeddings, document extraction from PDFs.
+
+**Documents & reporting**
+python-docx for templated Word generation, ReportLab / WeasyPrint / LaTeX for PDFs, openpyxl for Excel reports, Markdown → PDF pipelines.
+
+**Testing & quality**
+pytest, Jest, React Testing Library, type-checking with mypy / TypeScript strict mode, pre-commit hooks, security audits in CI.
 
 ---
 
-### 🧰 Tech I reach for
+### 🛠️ What that lets me do
 
-<p>
-  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Azure-0078D4?logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Supabase-3ECF8E?logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Stripe-635BFF?logo=stripe&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Tailwind-06B6D4?logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/-LaTeX-008080?logo=latex&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white" />
-</p>
+**Build full-stack web apps end-to-end** — auth, RBAC, real-time updates, admin panels, payments, file uploads — and ship them to production with previews, environment configs, and tests.
+
+**Stand up serverless backends** — Azure Functions or FastAPI services that expose webhooks, run on schedules, talk to external APIs, and survive retries and rate limits.
+
+**Wire up integrations between SaaS tools that don't natively talk** — Calendly ↔ Teams, Stripe ↔ Airtable, Gmail ↔ Sheets, Power Automate ↔ Azure — with proper auth refresh, dedup, and error handling.
+
+**Embed AI into existing products** — Q&A over PDFs, structured extraction (invoices, contracts, forms), conversational interfaces in Teams or web, multi-step agent workflows that call real tools, not just text-in/text-out.
+
+**Generate documents at scale** — PDFs, Word addendums, Excel reports, formal engineering reports in LaTeX — driven by templates and structured data instead of human copy-paste.
+
+**Modernize legacy spreadsheet/ERP workflows** — write the macros, scripts, and reporting layers that finally let people stop manually exporting and reformatting things every Monday.
+
+**Deploy and operate it all** — infra-as-code, CI/CD, secret rotation, logging, and the unglamorous bits that keep the lights on.
 
 ---
 
 ### 🧪 A few things I've actually built
 
-Most of my work is for private clients, so the repos aren't public — but here's the kind of thing I ship, anonymized.
+Most of my work is for private clients, so the repos aren't public — here's the kind of thing I ship, anonymized.
 
 **Real-estate booking pipeline**
 Azure Function that syncs scheduled bookings from a third-party calendar tool into an internal CRM workflow, normalizes the data, and triggers downstream notifications. Handles auth refresh, retries, and de-duplication so the ops team stops doing it by hand.
@@ -98,23 +103,14 @@ LaTeX + Python pipelines for generating polished engineering reports (thermodyna
 
 ---
 
-### 📈 Stats
+### 📫 Get in touch
 
-<p align="center">
-  <a href="https://github.com/Migue19ve">
-    <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Migue19ve&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-  </a>
-  <a href="https://github.com/Migue19ve">
-    <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Migue19ve&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-  </a>
-</p>
+I'm open to freelance work, contracts, and interesting collaborations.
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Migue19ve&theme=tokyonight&hide_border=true" height="165" />
-</p>
+| | |
+| --- | --- |
+| 📧 **Email** | [miguel@landatec.com](mailto:miguel@landatec.com) |
+| 📞 **Call / Text (USA)** | [+1 (331) 303-5619](tel:+13313035619) |
+| 💬 **WhatsApp** | [+58 412-063-3348](https://wa.me/584120633348) |
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Migue19ve&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10" />
-</p>
-
-> Most of my work lives in private repos, so the public stats only show a slice of it. Happy to walk through any of it on request.
+<p align="center"><sub>Most of my work lives in private repos — happy to walk through any of it on request.</sub></p>
