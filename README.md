@@ -105,7 +105,7 @@ LaTeX + Python pipelines for generating polished engineering reports (thermodyna
 
 ### 📫 Get in touch
 
-I'm open to freelance work, contracts, and interesting collaborations.
+Available for professional engagements, contract work, and collaboration opportunities.
 
 | | |
 | --- | --- |
