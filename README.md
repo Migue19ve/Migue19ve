@@ -68,13 +68,40 @@ Build macros, scripts, and reporting layers on top of legacy ERP and Excel workf
 
 ---
 
-### 📈 Stats
+### 🧪 A few things I've actually built
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Migue19ve&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Migue19ve&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
+Most of my work is for private clients, so the repos aren't public — but here's the kind of thing I ship, anonymized.
+
+**Real-estate booking pipeline**
+Azure Function that syncs scheduled bookings from a third-party calendar tool into an internal CRM workflow, normalizes the data, and triggers downstream notifications. Handles auth refresh, retries, and de-duplication so the ops team stops doing it by hand.
+
+**Internal AI/Teams bot platform**
+A Microsoft Teams bot wired to multiple internal data sources (Airtable, custom APIs, governance docs). Supports adaptive-card actions, structured query parsing, multi-step agentic workflows, and per-user authorization. Includes a Stripe invoicing module that lets non-technical staff create and send invoices straight from a chat card.
+
+**Soccer tournament platform**
+Next.js + Supabase web app with auth, role-based access, real-time bracket and standings updates, an admin panel for fixture management, and a full Jest test suite. Deployed to Vercel with preview environments per branch.
+
+**Construction-contract document generator**
+Python service that ingests long PDF contracts, extracts structured clauses, and produces revised Word addendums from templates. Built so a project manager can regenerate a polished doc in seconds instead of editing it by hand.
+
+**Field inspection app**
+Full-stack Node/React app for on-site inspections: photo capture, structured forms, offline-friendly behavior, audit reports, and an admin API. Shipped with a security audit baked into the build process.
+
+**Manufacturing reporting toolkit**
+A suite of macros and reporting layers sitting on top of a legacy ERP. Cleans up order-acknowledgment reports, applies vendor multipliers, generates customer-facing PDFs, and replaces a handful of error-prone manual steps in the daily order workflow.
+
+**Recurring billing automation**
+Google Apps Script that sends invoices on a schedule, pulls dynamic salary/rate data from a sheet, and templates the email — so a recurring task that used to take hours each week just runs itself.
+
+**Engineering / academic tooling**
+LaTeX + Python pipelines for generating polished engineering reports (thermodynamics, solid mechanics), including auto-built diagrams and styled PDFs from a single source.
 
 ---
 
-<p align="center"><sub>⭐️ Most of my work lives in private repos. Happy to walk through it on request.</sub></p>
+### 📈 Stats
+
+![Migue19ve's GitHub stats](https://github-readme-stats.vercel.app/api?username=Migue19ve&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800)
+
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Migue19ve&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800)
+
+> Most of my work lives in private repos, so the public stats only show a slice of it. Happy to walk through any of it on request.
