@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Miguel 👋</h1>
 
 <p align="center">
-  <em>Engineering student • Full-stack builder • Automation & AI tinkerer</em>
+  <em>Mechanical & software engineer • Full-stack builder • Automation & AI tinkerer</em>
 </p>
 
 <p align="center">
