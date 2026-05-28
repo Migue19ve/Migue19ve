@@ -18,7 +18,6 @@ I build software that turns messy, manual work into clean, reliable systems. Mos
 
 I'm equally comfortable wiring up backends, shipping a frontend, designing the data model, and dropping into cloud infra when needed. I lean heavily on AI in my workflow and treat it as another tool in the box — not a buzzword.
 
-- 🌎 Based between Venezuela and Miami, FL
 - 🤖 Comfortable working with LLMs end-to-end: prompt design, caching, tool use, agentic workflows
 - 🧩 I enjoy the boring parts: edge cases, observability, secrets hygiene, "what happens if the API goes down"
 
