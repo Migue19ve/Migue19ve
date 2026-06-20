@@ -108,7 +108,7 @@ Available for professional engagements, contract work, and collaboration opportu
 
 | | |
 | --- | --- |
-| 📧 **Email** | [miguel@landatec.com](mailto:miguel@landatec.com) |
+| 📧 **Email** | [miguelzmpriv@gmail.com](mailto:miguelzmpriv@gmail.com) |
 | 📞 **Call / Text (USA)** | [+1 (331) 303-5619](tel:+13313035619) |
 | 💬 **WhatsApp** | [+58 412-063-3348](https://wa.me/584120633348) |
 
